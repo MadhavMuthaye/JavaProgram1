@@ -1,3 +1,5 @@
+package JavaDay_12Jan;
+
 public class Lab007_printF {
     public static void main(String[] args) {
         int a = 10;

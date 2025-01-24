@@ -1,3 +1,5 @@
+package JavaDay_12Jan;
+
 public class Lab008_Table9 {
     public static void main(String[] args) {
         int t=9;

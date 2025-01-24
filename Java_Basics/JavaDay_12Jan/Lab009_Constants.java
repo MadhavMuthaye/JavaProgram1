@@ -1,3 +1,5 @@
+package JavaDay_12Jan;
+
 public class Lab009_Constants {
     public static void main(String[] args) {
 
