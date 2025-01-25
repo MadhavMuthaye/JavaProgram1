@@ -20,7 +20,7 @@ public class EX13_TO_CLI_Task1 {
                        (marks >=70 && marks <=79) ? "Grade C" :
                        (marks >=80 && marks <=89) ? "Grade B" :
                        (marks >=90 && marks <=99) ? "Grade A" :
-                                                "Marks not valid" ;
+                        "Marks not valid" ;
         System.out.printf("Your grade is %s",grade);
     }
 }
