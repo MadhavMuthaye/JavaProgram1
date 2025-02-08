@@ -2,7 +2,7 @@ package JavaDay_26Jan;
 
 public class Ex6_String2 {
     public static void main(String[] args) {
-        String s1 = "Hello";/// SCP has one word Hello
+        String s1 = "Hello";/// SCP (String Constant pool)has one word Hello
         String s2 = "Hello";//// s1 and S2 are pointed or referred to same literal Hello.
         //New Hello is not created
 
