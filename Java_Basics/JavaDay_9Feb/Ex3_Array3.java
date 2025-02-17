@@ -3,7 +3,7 @@ package JavaDay_9Feb;
 public class Ex3_Array3 {
     public static void main(String[] args) {
         int[] marks = new int[5];
-        int marks1[] = new int[5];/// this is also a valid syntax for araay
+       // int marks1[] = new int[5];/// this is also a valid syntax for array
         marks[0]= 91;
         marks[1]= 89;
         marks[2]= 75;
