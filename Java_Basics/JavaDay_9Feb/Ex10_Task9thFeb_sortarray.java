@@ -23,7 +23,7 @@ public class Ex10_Task9thFeb_sortarray {
             }
 
         }
-        System.out.println("Sorted order : " + Arrays.toString(nos));
+        System.out.println("Sorted order : " + Arrays.toString(nos));//Returns a string representation of the contents of the specified array.
 
 
     }

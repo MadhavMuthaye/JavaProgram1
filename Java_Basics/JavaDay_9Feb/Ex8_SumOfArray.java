@@ -15,6 +15,7 @@ public class Ex8_SumOfArray {
         // for each loop
         int sum1=0;
         for (int n: numbers){ ///  for each loop takes only range of array
+        // works only with arrays and collection. It works only in increment order
             sum1 = sum1 + n;
         }
         System.out.println("Total of nos is " + sum );
