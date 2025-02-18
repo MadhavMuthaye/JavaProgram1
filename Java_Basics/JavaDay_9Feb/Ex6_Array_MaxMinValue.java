@@ -22,6 +22,7 @@ public class Ex6_Array_MaxMinValue {
         int n2 = min_num(nos);
         System.out.println("Minimum number in array nos is: " + n2);
 }
+// below function is out of main()
        static  int max_num(int[] nos){// here static keyword is used bcoz this function is call in main function which itself is static
             int max = nos[0];
             for (int i=0; i< nos.length; i++)
