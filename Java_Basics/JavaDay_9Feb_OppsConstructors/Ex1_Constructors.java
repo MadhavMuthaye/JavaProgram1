@@ -11,10 +11,14 @@ public class Ex1_Constructors {
 
     class Numbers{
         int n1;
-
+        // Default Constructor
         Numbers(){ ///  Constructor has name as class. No return type and it is called default when
             //object is crated for class
             System.out.println("This line is called automatically when object is created ");
+        }
+        // Instance Initialization block. This is not a constructor. This is called even before contructor
+        {
+            System.out.println("I am also called when class is loaded");
         }
     }
 
