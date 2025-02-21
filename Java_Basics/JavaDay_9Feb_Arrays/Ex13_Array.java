@@ -1,6 +1,4 @@
-package JavaDay_9Feb;
-
-import java.util.Arrays;
+package JavaDay_9Feb_Arrays;
 
 public class Ex13_Array {
     public static void main(String[] args) {

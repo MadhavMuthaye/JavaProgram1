@@ -1,4 +1,4 @@
-package JavaDay_9Feb;
+package JavaDay_9Feb_Arrays;
 
 public class Ex2_Array2_Defaultvalues {
     public static void main(String[] args) {

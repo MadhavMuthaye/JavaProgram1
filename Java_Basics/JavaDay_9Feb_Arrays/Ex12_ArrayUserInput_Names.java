@@ -1,4 +1,4 @@
-package JavaDay_9Feb;
+package JavaDay_9Feb_Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;

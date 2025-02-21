@@ -1,4 +1,4 @@
-package JavaDay_9Feb;
+package JavaDay_9Feb_Arrays;
 
 public class Ex3_Array3 {
     public static void main(String[] args) {
