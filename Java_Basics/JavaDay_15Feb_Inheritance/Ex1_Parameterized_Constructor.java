@@ -1,4 +1,4 @@
-package JavaDay_15Feb;
+package JavaDay_15Feb_Inheritance;
 
 public class Ex1_Parameterized_Constructor {
     public static void main(String[] args) {
