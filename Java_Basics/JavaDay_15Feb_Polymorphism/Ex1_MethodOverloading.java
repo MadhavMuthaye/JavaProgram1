@@ -8,6 +8,8 @@ public class Ex1_MethodOverloading {
         int sum3  = m1.add(3,5,7);
         System.out.println("Sum of 3 nos is " + sum3);
 
+        double sum4 =m1.add(2.45,4.10);
+        System.out.println("Sum of 2 nos (double) is " + sum4);
 
     }
 
@@ -20,6 +22,11 @@ public class Ex1_MethodOverloading {
             int add (int a, int b, int c){
                 return a +b + c;
 
+
+        }
+
+        double add (double a, double b){
+            return  a+b;
         }
     }
 }
