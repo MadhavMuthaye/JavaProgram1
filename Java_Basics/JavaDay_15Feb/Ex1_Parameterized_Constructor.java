@@ -7,10 +7,12 @@ public class Ex1_Parameterized_Constructor {
         System.out.println(oppo.year);
 
         mobile oppo1 = new mobile("Oppo k12",2021);
-        System.out.println(oppo1.model + oppo1.year);
+        System.out.println(oppo1.model + " " + oppo1.year);
 
         mobile iphone= new mobile("iphone16",2025);
-        System.out.println(iphone.model + iphone.year);
+        System.out.println(iphone.model + " " + iphone.year);
+
+        iphone.display();
 
     }
 
@@ -29,5 +31,9 @@ class mobile{
     mobile(String model_name, int year_launch){
         this.model = model_name;
         this.year = year_launch;
+    }
+
+    void display(){
+        System.out.println(this.model+ "-" + this.year );
     }
 }
