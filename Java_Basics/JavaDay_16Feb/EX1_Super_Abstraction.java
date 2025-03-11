@@ -8,13 +8,13 @@ public class EX1_Super_Abstraction {
     }
 }
 
-    // single inhertance
+    // single inheritance
 
     class vehicle   {
         public int maxspeed = 180;
 
         vehicle(){
-            System.out.println("Default Contructor");
+            System.out.println("Default Constructor");
         }
         //parametrized constructor
          vehicle(int a) {
