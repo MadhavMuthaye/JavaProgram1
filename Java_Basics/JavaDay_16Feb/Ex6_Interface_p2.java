@@ -12,6 +12,7 @@ public class Ex6_Interface_p2 {
 
 
 interface I1{
+    int a = 10;
     void icm1();
     void icm2();
 }
@@ -28,6 +29,7 @@ class class1 implements I1,I2{
     @Override
     public void icm1() {
         System.out.println("ICM1 Complete");
+        System.out.println(a);/// variable present in interface can directly be used as by default it is public
     }
 
     @Override
