@@ -18,6 +18,9 @@ interface I1{
 
 interface I2{
     void icm3();
+    default void icm4(){// only with default keyword we can describe function in interface
+        System.out.println("ICM4 Complete");
+    }
 }
 
 class class1 implements I1,I2{
