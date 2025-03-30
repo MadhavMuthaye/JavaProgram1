@@ -8,9 +8,11 @@ public class EX1_Static_ex1 {
         System.out.println(s1.age);
         System.out.println(s2.age);
 
+        System.out.println(s1.course_name);//can be accessed using object
         System.out.println(student.course_name);// To access static variable object is not required.
         // Directly can be accessed using class name
 
+        s1.m1();
         student.m1();//being static method it can Directly can be accessed using class name
 
     }
@@ -21,6 +23,7 @@ public class EX1_Static_ex1 {
 class student {
     int age; // This is not a static variable as static keyword is not used
     static String course_name = "ATB10x";// This is static variable
+                                            // can be accessed at Class loader level
 
     public student(int age_c) {// constructor
         this.age = age_c;
