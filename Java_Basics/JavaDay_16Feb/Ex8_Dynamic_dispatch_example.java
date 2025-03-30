@@ -7,7 +7,7 @@ public class Ex8_Dynamic_dispatch_example {
         d.display();
         System.out.println(d.a);
 
-        // Webdriver driver = new ChromeDriver(); // another example of  Dynamic Dispatch
+        // Webdriver driver = new ChromeDriver(); // another exampleDay_ Dynamic Dispatch
     }
 }
 
