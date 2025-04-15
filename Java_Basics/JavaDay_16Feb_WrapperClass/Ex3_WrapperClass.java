@@ -7,7 +7,8 @@ public class Ex3_WrapperClass {
         //System.out.println(a.); a doesn't has access to any built-in functions
         Integer b = 20;
         System.out.println(b.byteValue());// here due to wrapper class b has access to any built-in functions
-        Integer a1=a;
+        Integer a1=a;// This is called as Boxing
         System.out.println(a1.floatValue());//a1 has access to build in functions
+        int b1 = b;// This is called as UnBoxing
     }
 }
